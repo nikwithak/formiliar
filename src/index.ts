@@ -12,7 +12,7 @@ export {
     DropdownSelect,
     FileUpload,
     InputRow,
-    MultiSelect,
+    MultiSelect, MultiSelectOption,
     TextArea,
 };
 export default formiliar;
