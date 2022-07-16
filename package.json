@@ -1,0 +1,31 @@
+{
+  "name": "formiliar",
+  "version": "0.0.1",
+  "description": "Generate dynamic forms for React projects, with dynamic validation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:esm && npm run build:cjs",
+    "build:cjs": "tsc --module commonjs --outDir lib/cjs",
+    "build:esm": "tsc"
+  },
+  "keywords": [
+    "forms",
+    "react"
+  ],
+  "author": "Nik Gilmore",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.0.15",
+    "@types/react-dom": "^18.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^4.7.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "main": "./build/cjs/index.js",
+  "module": "./build/esm/index.js",
+  "types": "./build/esm/index.d.ts"
+}
