@@ -72,4 +72,4 @@ function SimpleContactForm() {
 ### Implementation Notes
 This was created for my own needs after finding myself writing the same Form handling code over and over. It is very much a WIP. I plan to add more input types and better form controls in the future.
 
-Currently it is hardcoded for use with (bulma.io)[https://www.bulma.io) CSS classes. Eventually I plan to add more customization and the ability to use your own CSS classes.
+Currently it is hardcoded for use with [bulma.io](https://www.bulma.io) CSS classes. Eventually I plan to add more customization and the ability to use your own CSS classes.
