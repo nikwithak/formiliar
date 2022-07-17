@@ -8,6 +8,9 @@ A library for rapidly creating forms in react. Pass a list of `FormField`s into 
 ![Validation Errors](/screenshots/validation.png?raw=true "Validation Errors")
 
 ## Usage
+
+`npm i -D formiliar`
+
 ```typescript
 function SimpleContactForm() {
 
